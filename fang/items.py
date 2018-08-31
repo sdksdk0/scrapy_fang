@@ -8,7 +8,25 @@
 import scrapy
 
 
-class FangItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class NewHouseItem(scrapy.Item):
+    #省份
+    province = scrapy.Field()
+    #城市
+    city = scrapy.Field()
+    #楼盘名称
+    name = scrapy.Field()
+    #价格
+    price = scrapy.Field()
+    #几居室
+    rooms = scrapy.Field()
+    #面积
+    area = scrapy.Field()
+    #地址
+    address = scrapy.Field()
+    #行政区
+    district = scrapy.Field()
+    #是否在售
+    sale = scrapy.Field()
+    #详情页面
+    origin_url = scrapy.Field()
+
