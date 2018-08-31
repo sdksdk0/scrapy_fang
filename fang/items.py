@@ -30,3 +30,29 @@ class NewHouseItem(scrapy.Item):
     #详情页面
     origin_url = scrapy.Field()
 
+
+class ESFHourseItem(scrapy.Item):
+    # 省份
+    province = scrapy.Field()
+    # 城市
+    city = scrapy.Field()
+    # 楼盘名称
+    name = scrapy.Field()
+    # 价格
+    price = scrapy.Field()
+    # 几居室
+    rooms = scrapy.Field()
+    #层
+    floor = scrapy.Field()
+    #朝向
+    toward = scrapy.Field()
+    #年代
+    year = scrapy.Field()
+    # 面积
+    area = scrapy.Field()
+    # 地址
+    address = scrapy.Field()
+    #单价
+    unit = scrapy.Field()
+    # 详情页面
+    origin_url = scrapy.Field()
